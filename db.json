@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Admin"
+    },
+    {
+      "id": 2,
+      "email": "mail@mail.ru",
+      "password": "123456",
+      "name": "Lena"
+    },
+    {
+      "email": "addr2@mail.ru",
+      "password": "112233",
+      "name": "Aliena",
+      "id": 3
+    }
+  ],
+  "bill": {
+    "value": 100080,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "nameCategory": "Dandelion Wine",
+      "capacity": 1500,
+      "id": 1
+    },
+    {
+      "nameCategory": "Chianti",
+      "capacity": 1000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nameCategory": "Nobile di Montepulciano",
+      "capacity": 7000
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2017 19:49:02",
+      "description": "By in trip"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.06.2017 19:49:02",
+      "description": "Sell for holiday"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.06.2017 14:00:48",
+      "id": 3,
+      "description": "Present"
+    }
+  ]
+}
